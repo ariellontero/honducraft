@@ -90,7 +90,7 @@ function NavBar({ onTienda }) {
         </nav>
 
         <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-          <a href="#discord" className="btn btn--sm btn--ghost" style={{ display: 'inline-flex' }}>
+          <a href="https://discord.gg/5wkG7hJvad" className="btn btn--sm btn--ghost" style={{ display: 'inline-flex' }}>
             <span style={{ width: 10, height: 10, background: '#5865f2', display: 'inline-block', border: '2px solid var(--stone-1)' }} /> Discord
           </a>
           <a href="#tienda" className="btn btn--sm btn--gold" onClick={onTienda}>
